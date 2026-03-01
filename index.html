@@ -482,7 +482,7 @@
             const filterBar = document.getElementById('filter-bar');
             
             try {
-                const res = await fetch("https://allrounderid.pages.dev/api/jiotv2.json");
+                const res = await fetch("https://raw.githubusercontent.com/fakeall12398-sketch/JIO_TV/refs/heads/main/full_channels.json");
                 allChannels = await res.json();
                 
                 // Extract unique genres
